@@ -10,7 +10,7 @@
     "node": ">=18.17.0"
   },
   "scripts": {
-    "start": "node -v && node src/index.js",
+    "start": "node scripts/deploy-commands.js && node src/index.js",
     "deploy": "node scripts/deploy-commands.js",
     "invite": "node scripts/invite-url.js",
     "backup": "node scripts/backup.js",
